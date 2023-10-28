@@ -6,3 +6,7 @@ sealed class PersonEvent extends Equatable {
   @override
   List<Object> get props => [];
 }
+
+class GetAllPersonsEvent extends PersonEvent {}
+
+class RefreshPersonsEvent extends PersonEvent {}
